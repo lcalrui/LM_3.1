@@ -1,0 +1,25 @@
+h1 {
+    color: red;
+}
+
+h2 {
+    text-align: center;
+}
+
+#trabajador1 {
+    color: blue;
+}
+
+#trabajador2 {
+    color: rgb(3, 184, 3);
+}
+
+.container-trabajador {
+    background-color: grey;
+    border: 2px solid rgb(165, 165, 165);
+    margin: 10px 0px;
+}
+
+.container-datos {
+    border: 2px solid;
+}
