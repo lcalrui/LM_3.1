@@ -1,0 +1,72 @@
+html {
+    background-color: rgb(233, 229, 178);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+form {
+    background-color: #cfd3db;
+    justify-self: center;
+    font-size: 14px;
+    color: #6b121b;
+    border: 1px dotted #b8bfcb;
+    border-radius: 7px;
+    padding: 14px;
+}
+
+fieldset {
+    border: 1px dotted gray;
+    border-radius: 6px;
+    margin-bottom: 15px;
+    margin-top: 0px;
+    padding: 0px 20px;
+}
+
+legend {
+    color: gray;
+    font-size: 13px;
+    margin-bottom: 16px;
+}
+
+input {
+    background-color: white;
+    border-radius: 4px;
+    color: #264f96;
+    font-size: 16px;
+    padding: 3px 3px 3px 10px;
+    outline: none;
+}
+
+input[type=submit] {
+    padding: 6px 30px;
+    color: white;
+    background-color: #2a477a;
+    font-size: 14px;
+}
+
+input[type=submit]:hover {
+    background-color: #5376b2;
+}
+
+textarea {
+    width: 450px;
+    max-width: 493px;
+    min-width: 300px;
+    height: 50px;
+    max-height: 200px;
+    min-height: 50px;
+    margin-top: 4px;
+    border-radius: 4px;
+    color: #264f96;
+    font-size: 16px;
+    padding: 3px 3px 3px 10px;
+}
+
+input:required {
+    border-color: #4aa248;
+    box-shadow: 0 0 3px #4AA248;
+}
+
+input:invalid {
+    border-color: #ff7f7f;
+    box-shadow: 0 0 3px #ff7f7f;
+}
