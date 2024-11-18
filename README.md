@@ -111,6 +111,7 @@ Los colores de fondo de la tabla son:
 | Cabecera de la tabla | `#666`         |
 | Cuerpo de la tabla   | `#fff`         |
 | Pie de la tabla      | `#ccc`         |
+|                      |                |
 
 ## Ejercicio 7
 Realiza la web que se muestra en la imagen de abajo teniendo en cuenta las siguientes restricciones del *css*.
@@ -126,3 +127,193 @@ Realiza la web que se muestra en la imagen de abajo teniendo en cuenta las sigui
 * Los encabezados `<h3>` que están justo después de un párrafo tendrán un color de fondo azul.
 
 Los estilos deberán de definirse en un fichero *css*.
+
+## Ejercicio 8
+Realiza la web que se muestra a continuación teniendo en cuenta las siguientes restricciones *css*.
+* body
+	* Color de fondo: `#eee`
+	* Color: negro
+	* Alineación de texto: justificado
+	* Fuente: Sans-serif
+* h1
+	* Color: `#333`
+	* Tamaño de fuente: 200%
+	* Centrado
+	* Texto en mayusculas
+* h2
+	* Color de fondo: `#888`
+	* Color: rojo
+	* Tamaño de fuente: 150%
+	* Primera letra de cada palabra en mayúsculas
+* h3
+	* Color de fondo: `#aaa`
+	* Color: Magenta oscuro
+	* Tamaño de fuente: 130%
+* p
+	* Color de fondo: `#ccc`
+	* Altura de línea: 150%
+* address
+	* Color de fondo: blanco
+	* Estilo de fuente: normal
+	* Añadir negrita
+	* Anadir subrayado
+* strong
+	* Color: verde
+	* Estilo de fuente: normal
+	* Eliminar negrita
+
+## Ejercicio 9
+Realiza la web que se muestra a continuación teniendo en cuenta las siguientes restricciones *css*.
+* body
+	* Color de fondo: `#267352`
+	* Fuente: sans-serif
+	* Tamaño de letra: 1.25 rem
+* h1
+	* Color: blanco
+	* Alineación del texto: izquierda
+	* Sombra: negra, desplazada 5px abajo, desplazada 5px derecha
+	* Texto en mayúsculas
+* p
+	* Texto justificado
+* p.intro
+	* borde: 10px, negro y sólido
+	* Radio del borde: 30px
+	* Márgen izquierdo: 25%
+	* Márgen derecho: 25%
+	* Padding: 20px
+	* Color de fondo: blanco
+* p.estilo-1
+	* borde: `#802400`, 20px y sólido
+	* radio del borde superior izquierdo: 20px
+	* radio del borde inferior izquierdo: 20px
+	* margen derecho: 50%
+	* padding: 10px
+	* Color de fondo: `#b35733`
+	* Color: blanco
+* p.estilo-2
+	* borde: `#804800`, 15px y sólido
+	* radio del borde superior derecho: 15px
+	* radio del borde inferior derecho: 15px
+	* margen izquierdo: 50%
+	* padding: 5px
+	* Color de fondo: `#b37b33`
+	* Color: blanco
+* p.estilo-3
+	* borde: color `#3379b3`, 5px con guiones
+	* margen derecho: 25%
+	* margen izquierdo: 25%
+	* padding: 20px
+	* color de fondo: #004680
+	* Color: blanco
+
+## Ejercicio 10
+### Etiquetas
+* Un titulo en `<h1>` para el título.
+* Las citas son etiquetas `<p>`.
+* El nombre del escritor en el primer párrafo está dentro de un `<strong>`
+* Los nombres de las obras en etiquetas `<cite>`
+### Clases
+* intro: El párrafo introductorio, tiene un margen izquierdo y derecho mayor que el resto.
+* latin: Los párrafos en latín, aparecen a la izquierda.
+* espanol: Los párrafos en español, aparecen a la derecha.
+### Fuentes
+* Título: [Ribeye Marrow](https://fonts.google.com/specimen/Ribeye+Marrow)
+* Citas en latín: [Lobster](https://fonts.google.com/specimen/Lobster)
+* Citas en español: [Just Another Hand](https://fonts.google.com/specimen/Just+Another+Hand)
+### Estilos
+* body
+	* Color de fondo: `#ccac4d`
+* h1
+	* Tamaño de letra: 3 rem
+	* Separación entre caracteres: 1.5 rem
+	* Mayúsculas
+* p.intro
+	* Márgenes izquierdo y derecho: 30%
+	* Interlineado: 200%
+* cite: subrayado
+* p.latin: Tamaño de letra: 2.5 rem
+* p.espanol
+	* Tamaño de letra: 3.5 rem
+	* Separación entre caracteres: 1px
+
+## Ejercicio 11
+* body
+	* Color de fondo: `#33e7ff`
+	* Tipo de letra: sans-serif
+* h1
+	* Color: `#005a66`
+	* Tamaño de letra: 4 rem
+	* Separación de letras: 2 rem
+	* Mayúsculas
+* p
+	* Posicionamiento flotante
+	* Ancho: 16 rem
+	* Alto: 16 rem
+	* Overflow
+	* Borde: 5px, discontinuo, `#005a66`
+	* Margen: 10px
+	* Relleno: 10px
+	* Color de fondo: `#00b4cc`
+	* Tamaño de letra: 1.5 rem
+	* Cursiva
+* Primer carácter de cada párrafo
+	* Posicionamiento flotante: float
+	* Color: `#005a66`
+	* Tamaño de letra: 5 rem
+	* Cursiva
+	* Interlineado: 3 rem
+
+## Ejercicio 12
+* Fomulario
+	* Centrado horizontalmente
+	* Tamaño de fuente: 14px
+	* Color del texto: `#6b121b`
+	* Borde: 1px, puenteado y `#b8bfcb`
+	* Radio del borde: 7px
+	* Padding: 14px
+* Fieldset
+	* Borde: 1px, puenteado y gris
+	* Radio del borde: 6px
+	* Margen inferior: 15px
+	* Margen superior: 0px
+	* Padding superior e inferior: 0px
+	* Padding izquierda y derecha: 20px
+* Legend
+	* Color del texto: gris
+	* Tamaño de letra: 13px
+	* Margen infrerior: 16px
+* Input
+	* Color de fondo: blanco
+	* Radio del borde: 4px
+	* Color del texto: `#264f96`
+	* Tamaño de fuente: 16px
+	* Padding: 3px 3px 3px 10px
+	* Outline: none
+* Botón de enviar
+	* Padding: 6px 30px
+	* Color del texto: blanco
+	* Color de fondo: `#2a477a`
+	* Tamaño de fuente: 14px
+	* Hover: color de fondo `#5376b2`
+* Textarea
+	* Ancho: 450px
+	* Ancho máximo: 493px
+	* Ancho mínimo: 300px
+	* Alto: 50px
+	* Alto máximo: 200px
+	* Alto mínimo: 50px
+	* Margen superior: 4px
+	* Radio del borde: 4px
+	* Color del texto: `#264f96`
+	* Tamaño de la fuente: 16px
+	* Padding: 3px 3px 3px 10px
+* Campos requeridos
+	* Color de borde: `#4aa248`
+	* Sombra estilo halo con un difuminado de 3px de color `#4aa248`
+* Campos inválidos:
+	* Color de borde: `#ff7f7f`
+	* Sombra estilo halo con un difuminado de 3px de color `#ff7f7f`
+
+## Ejercicio 13 y 14
+Replica las páginas de las imágenes del documento.
+En mi caso lo he hecho todo en la misma carpeta para que quede como una misma página web con un página de Inicio (ejercicio 13) y Nosotros (ejercicio 14)
